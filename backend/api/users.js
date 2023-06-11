@@ -4,7 +4,7 @@ router.get('/', (req, res) => {
     const message = {
         message: 'hello user'
     };
-   res.send(message);
+   res.json(message);
 });
 
 module.exports = router;
